@@ -58,6 +58,8 @@ dependencies:
   http: ^1.2.2
   pinput: ^6.0.2
   alt_sms_autofill: ^1.0.0
+  ota_update: ^7.1.0
+  package_info_plus: ^8.2.1
 
 dev_dependencies:
   flutter_test:

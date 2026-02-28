@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../l10n/app_localizations.dart';
+import '../../core/services/update_service.dart';
+import 'package:ota_update/ota_update.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -14,6 +16,8 @@ class _SplashScreenState extends State<SplashScreen>
   late AnimationController _controller;
   late Animation<double> _scaleAnimation;
   late Animation<double> _opacityAnimation;
+  bool _isUpdating = false;
+  String _updateProgress = '';
 
   @override
   void initState() {
@@ -38,6 +42,85 @@ class _SplashScreenState extends State<SplashScreen>
     );
 
     _controller.forward();
+
+    // Check for updates after a short delay
+    Future.delayed(const Duration(seconds: 2), _checkUpdate);
+  }
+
+  Future<void> _checkUpdate() async {
+    final updateInfo = await UpdateService.checkForUpdate();
+    if (updateInfo != null && updateInfo['updateAvailable'] == true) {
+      if (mounted) {
+        _showUpdateDialog(updateInfo['url'], updateInfo['version'],
+            updateInfo['notes'] ?? '');
+      }
+    }
+  }
+
+  void _showUpdateDialog(String url, String version, String notes) {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        title: const Text('تحديث جديد متوفر', textAlign: TextAlign.right),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            Text('الإصدار: $version',
+                style: const TextStyle(fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            Text(notes.isEmpty
+                ? 'يتوفر إصدار جديد من التطبيق بمميزات وتحسينات جديدة.'
+                : notes),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('لاحقاً'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+              _startUpdate(url);
+            },
+            child: const Text('تحديث الآن'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _startUpdate(String url) {
+    setState(() {
+      _isUpdating = true;
+    });
+
+    try {
+      UpdateService.performUpdate(url).listen(
+        (OtaEvent event) {
+          setState(() {
+            _updateProgress = 'جاري التحميل: ${event.value}%';
+            if (event.status == OtaStatus.INSTALLING) {
+              _updateProgress = 'جاري التثبيت...';
+            }
+          });
+        },
+        onError: (e) {
+          debugPrint('Update error: $e');
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('فشل في تحميل التحديث')),
+            );
+          }
+          setState(() => _isUpdating = false);
+        },
+      );
+    } catch (e) {
+      debugPrint('Exception during update: $e');
+      setState(() => _isUpdating = false);
+    }
   }
 
   @override
@@ -172,11 +255,12 @@ class _SplashScreenState extends State<SplashScreen>
                     ),
                     SizedBox(height: 16.h),
                     Text(
-                      l10n.loading,
+                      _isUpdating ? _updateProgress : l10n.loading,
                       style: TextStyle(
-                        color: Colors.white.withValues(alpha: 0.5),
-                        fontSize: 12.sp,
+                        color: Colors.white.withValues(alpha: 0.7),
+                        fontSize: 16.sp,
                         fontFamily: 'Cairo',
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ],
