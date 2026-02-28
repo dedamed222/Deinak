@@ -1,0 +1,13 @@
+Analyzing deinak...                                             
+
+  error - The property 'shade600' can't be accessed on the type 'MaterialColor' in a constant expression - lib\screens\home\home_screen.dart:214:52 - const_eval_property_access
+  error - The name '_SettingsCard' isn't a class - lib\screens\home\home_screen.dart:217:31 - creation_with_non_type
+  error - The method '_SettingsTile' isn't defined for the type '_HomeScreenState' - lib\screens\home\home_screen.dart:219:29 - undefined_method
+  error - The method '_SettingsTile' isn't defined for the type '_HomeScreenState' - lib\screens\home\home_screen.dart:225:29 - undefined_method
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\home_screen.dart:408:19 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:89:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:417:57 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:126:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\settings\settings_screen.dart:127:23 - prefer_const_literals_to_create_immutables
+
+9 issues found. (ran in 2.5s)

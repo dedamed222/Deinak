@@ -1,0 +1,86 @@
+name: deinak
+description: "ديناك - تطبيق إدارة السلف وديون بطاقات الرصيد"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+
+  # Database
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Storage
+  shared_preferences: ^2.3.2
+
+  # Notifications
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
+  flutter_timezone: ^5.0.1
+
+  # Security / Crypto
+  crypto: ^3.0.5
+
+  # PDF Export
+  pdf: ^3.11.1
+  printing: ^5.13.2
+
+  # File sharing
+  path_provider: ^2.1.4
+  share_plus: ^10.1.2
+
+  # Date/Time
+  intl: ^0.20.2
+
+  # Biometric auth
+  local_auth: ^2.3.0
+
+  # Permission handler
+  permission_handler: ^11.3.1
+
+  # UUID
+  uuid: ^4.5.1
+  flutter_screenutil: ^5.9.3
+  supabase_flutter: ^2.12.0
+  country_picker: ^2.0.27
+  http: ^1.2.2
+  pinput: ^6.0.2
+  alt_sms_autofill: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.jpg"
+  min_sdk_android: 21
+
+flutter:
+  generate: true
+  uses-material-design: true
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+  assets:
+    - assets/fonts/

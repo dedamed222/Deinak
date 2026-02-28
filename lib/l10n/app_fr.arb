@@ -1,0 +1,713 @@
+{
+    "@@locale": "fr",
+    "appName": "Deinak",
+    "@appName": {
+        "description": "Application name"
+    },
+    "appTitle": "Deinak",
+    "@appTitle": {
+        "description": "Application title"
+    },
+    "appDescription": "Gestion des dettes et prêts",
+    "@appDescription": {
+        "description": "Application description"
+    },
+    "login": "Connexion",
+    "@login": {
+        "description": "Login button text"
+    },
+    "register": "S'inscrire",
+    "@register": {
+        "description": "Register button text"
+    },
+    "settings": "Paramètres",
+    "@settings": {
+        "description": "Settings menu item"
+    },
+    "loans": "Prêts",
+    "@loans": {
+        "description": "Loans menu item"
+    },
+    "reports": "Rapports",
+    "@reports": {
+        "description": "Rapports menu item"
+    },
+    "home": "Accueil",
+    "@home": {
+        "description": "Home menu item"
+    },
+    "addLoan": "Ajouter un prêt",
+    "@addLoan": {
+        "description": "Add loan button"
+    },
+    "editLoan": "Modifier le prêt",
+    "@editLoan": {
+        "description": "Edit loan button"
+    },
+    "delete": "Supprimer",
+    "@delete": {
+        "description": "Delete button label"
+    },
+    "cancel": "Annuler",
+    "@cancel": {
+        "description": "Cancel button label"
+    },
+    "save": "Enregistrer",
+    "@save": {
+        "description": "Save button label"
+    },
+    "borrowerName": "Nom de l'emprunteur",
+    "@borrowerName": {
+        "description": "Borrower name label"
+    },
+    "fullNameLabel": "Nom complet",
+    "@fullNameLabel": {
+        "description": "Full name label for user profile"
+    },
+    "fullNameRequired": "Veuillez entrer votre nom complet",
+    "@fullNameRequired": {
+        "description": "Error message when full name is empty"
+    },
+    "countryLabel": "Pays",
+    "@countryLabel": {
+        "description": "Country label for registration"
+    },
+    "selectCountry": "Choisir le pays",
+    "@selectCountry": {
+        "description": "Select country hint"
+    },
+    "phoneNumber": "Numéro de téléphone",
+    "@phoneNumber": {
+        "description": "Phone number label"
+    },
+    "loanDate": "Date du prêt",
+    "@loanDate": {
+        "description": "Loan date label"
+    },
+    "dueDate": "Date d'échéance",
+    "@dueDate": {
+        "description": "Due date label"
+    },
+    "amount": "Montant",
+    "@amount": {
+        "description": "Amount label"
+    },
+    "profit": "Bénéfice",
+    "@profit": {
+        "description": "Profit label"
+    },
+    "total": "Total",
+    "@total": {
+        "description": "Total label"
+    },
+    "notes": "Notes",
+    "@notes": {
+        "description": "Notes label"
+    },
+    "status": "Statut",
+    "@status": {
+        "description": "Status label"
+    },
+    "active": "Actif",
+    "@active": {
+        "description": "Active status label"
+    },
+    "overdue": "En retard",
+    "@overdue": {
+        "description": "Overdue status label"
+    },
+    "completed": "Remboursé",
+    "@completed": {
+        "description": "Completed status label"
+    },
+    "theme": "Thème",
+    "@theme": {
+        "description": "Theme settings label"
+    },
+    "language": "Langue",
+    "@language": {
+        "description": "Language settings label"
+    },
+    "logout": "Déconnexion",
+    "@logout": {
+        "description": "Logout button"
+    },
+    "guestUser": "Invité",
+    "@guestUser": {
+        "description": "Guest user label"
+    },
+    "aboutApp": "À propos",
+    "@aboutApp": {
+        "description": "About app menu"
+    },
+    "version": "Version",
+    "@version": {
+        "description": "Version label"
+    },
+    "developedBy": "Développé par",
+    "@developedBy": {
+        "description": "Developed by label"
+    },
+    "username": "Nom d'utilisateur",
+    "@username": {
+        "description": "Username label"
+    },
+    "password": "Mot de passe",
+    "@password": {
+        "description": "Password label"
+    },
+    "enterUsername": "Entrez le nom d'utilisateur",
+    "@enterUsername": {
+        "description": "Enter username hint"
+    },
+    "enterPhoneNumber": "Entrez le numéro de téléphone",
+    "@enterPhoneNumber": {
+        "description": "Enter phone number hint"
+    },
+    "enterPassword": "Entrez le mot de passe",
+    "@enterPassword": {
+        "description": "Enter password hint"
+    },
+    "usernameRequired": "Nom d'utilisateur requis",
+    "@usernameRequired": {
+        "description": "Username required error"
+    },
+    "passwordRequired": "Mot de passe requis",
+    "@passwordRequired": {
+        "description": "Password required error"
+    },
+    "noAccount": "Pas de compte ? S'inscrire",
+    "@noAccount": {
+        "description": "Link to registration"
+    },
+    "continueAsGuest": "Continuer en tant qu'invité",
+    "@continueAsGuest": {
+        "description": "Continue as guest button"
+    },
+    "invalidPhoneNumber": "Numéro de téléphone invalide. Il doit être composé de 8 chiffres et commencer par 2, 3 ou 4",
+    "@invalidPhoneNumber": {
+        "description": "Phone number validation error message"
+    },
+    "loginError": "Erreur de connexion",
+    "@loginError": {
+        "description": "Login error message"
+    },
+    "totalLentAmount": "Total prêté",
+    "@totalLentAmount": {
+        "description": "Total lent amount label"
+    },
+    "activeLoansCount": "{count} prêts actifs",
+    "@activeLoansCount": {
+        "description": "Count of active loans",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "5"
+            }
+        }
+    },
+    "todayProfitLabel": "Bénéfices du jour",
+    "@todayProfitLabel": {
+        "description": "Today's profit label"
+    },
+    "expectedProfitLabel": "Bénéfices attendus",
+    "@expectedProfitLabel": {
+        "description": "Expected profit label"
+    },
+    "overdueLoansTitle": "Prêts en retard ({count})",
+    "@overdueLoansTitle": {
+        "description": "Title for overdue loans list",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "recentLoans": "Prêts récents",
+    "@recentLoans": {
+        "description": "Recent loans header"
+    },
+    "noActiveLoans": "Aucun prêt actif",
+    "@noActiveLoans": {
+        "description": "Message when no active loans exist"
+    },
+    "newLoan": "Nouveau prêt",
+    "@newLoan": {
+        "description": "New loan button"
+    },
+    "guestBannerText": "Vous utilisez l'application en tant qu'invité. Données locales.",
+    "@guestBannerText": {
+        "description": "Warning message for guest users"
+    },
+    "changePassword": "Changer le mot de passe",
+    "@changePassword": {
+        "description": "Change password title"
+    },
+    "currentPassword": "Mot de passe actuel",
+    "@currentPassword": {
+        "description": "Current password label"
+    },
+    "newPassword": "Nouveau mot de passe",
+    "@newPassword": {
+        "description": "New password label"
+    },
+    "confirmPassword": "Confirmer le mot de passe",
+    "@confirmPassword": {
+        "description": "Confirm password label"
+    },
+    "confirmLogout": "Voulez-vous vous déconnecter ?",
+    "@confirmLogout": {
+        "description": "Confirmation message for logout"
+    },
+    "logoutButton": "Déconnexion",
+    "@logoutButton": {
+        "description": "Logout confirmation button"
+    },
+    "passwordsNotMatch": "Les mots de passe ne correspondent pas",
+    "@passwordsNotMatch": {
+        "description": "Password mismatch error"
+    },
+    "registerError": "Erreur d'inscription",
+    "@registerError": {
+        "description": "Registration error message"
+    },
+    "registerTitle": "Créer un compte",
+    "@registerTitle": {
+        "description": "Registration title"
+    },
+    "createAccount": "Créer le compte",
+    "@createAccount": {
+        "description": "Create account button label"
+    },
+    "passwordTooShort": "6 caractères minimum",
+    "@passwordTooShort": {
+        "description": "Password too short error"
+    },
+    "confirmPasswordRequired": "Veuillez confirmer le mot de passe",
+    "@confirmPasswordRequired": {
+        "description": "Confirmation password required error"
+    },
+    "borrowerInfo": "Infos de l'emprunteur",
+    "@borrowerInfo": {
+        "description": "Borrower info section header"
+    },
+    "loanDetails": "Détails du prêt",
+    "@loanDetails": {
+        "description": "Loan details section header"
+    },
+    "loanDuration": "Durée",
+    "@loanDuration": {
+        "description": "Loan duration label"
+    },
+    "repaymentDate": "Date de remboursement",
+    "@repaymentDate": {
+        "description": "Repayment date label"
+    },
+    "cardCompany": "Compagnie de carte",
+    "@cardCompany": {
+        "description": "Card company label"
+    },
+    "cardCategory": "Catégorie (Valeur)",
+    "@cardCategory": {
+        "description": "Card category label"
+    },
+    "cardCount": "Nombre de cartes",
+    "@cardCount": {
+        "description": "Card count label"
+    },
+    "customValue": "Autre",
+    "@customValue": {
+        "description": "Other/custom value option"
+    },
+    "cardValueLabel": "Valeur de la carte (MRU)",
+    "@cardValueLabel": {
+        "description": "Card value input label"
+    },
+    "profitType": "Type de bénéfice",
+    "@profitType": {
+        "description": "Profit type label"
+    },
+    "profitPercentage": "Pourcentage %",
+    "@profitPercentage": {
+        "description": "Profit percentage label"
+    },
+    "fixedAmount": "Montant fixe",
+    "@fixedAmount": {
+        "description": "Fixed profit amount label"
+    },
+    "profitRate": "Taux de bénéfice (%)",
+    "@profitRate": {
+        "description": "Profit rate label"
+    },
+    "profitAmount": "Montant du bénéfice (MRU)",
+    "@profitAmount": {
+        "description": "Profit amount label"
+    },
+    "loanSummary": "Résumé du prêt",
+    "@loanSummary": {
+        "description": "Loan summary header"
+    },
+    "totalCardsAmount": "Total des cartes",
+    "@totalCardsAmount": {
+        "description": "Total cards amount label"
+    },
+    "finalAmount": "Montant final",
+    "@finalAmount": {
+        "description": "Final loan amount label"
+    },
+    "addNoteHint": "Ajouter une note (optionnel)...",
+    "@addNoteHint": {
+        "description": "Add note hint text"
+    },
+    "invalidCardValue": "Veuillez entrer une valeur valide",
+    "@invalidCardValue": {
+        "description": "Invalid card value error"
+    },
+    "loanUpdated": "Prêt mis à jour avec succès",
+    "@loanUpdated": {
+        "description": "Loan updated success message"
+    },
+    "loanAdded": "Prêt ajouté avec succès",
+    "@loanAdded": {
+        "description": "Loan added success message"
+    },
+    "nameRequired": "Nom requis",
+    "@nameRequired": {
+        "description": "Name required error"
+    },
+    "phoneRequired": "Téléphone requis",
+    "@phoneRequired": {
+        "description": "Phone required error"
+    },
+    "cardCountRequired": "Nombre de cartes requis",
+    "@cardCountRequired": {
+        "description": "Card count required error"
+    },
+    "profitValueRequired": "Valeur du bénéfice requise",
+    "@profitValueRequired": {
+        "description": "Profit value required error"
+    },
+    "confirmPaidTitle": "Confirmer le paiement",
+    "@confirmPaidTitle": {
+        "description": "Confirm paid dialog title"
+    },
+    "confirmPaidMessage": "Est-ce que {name} a payé ?",
+    "@confirmPaidMessage": {
+        "description": "Confirm paid dialog message",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            }
+        }
+    },
+    "yesPaid": "Oui, payé",
+    "@yesPaid": {
+        "description": "Confirm paid button"
+    },
+    "no": "Non",
+    "@no": {
+        "description": "No button"
+    },
+    "paidSuccess": "Paiement enregistré avec succès",
+    "@paidSuccess": {
+        "description": "Payment marked as success message"
+    },
+    "confirmDeleteTitle": "Supprimer le prêt",
+    "@confirmDeleteTitle": {
+        "description": "Confirm delete loan title"
+    },
+    "confirmDeleteMessage": "Voulez-vous supprimer le prêt de {name} ?",
+    "@confirmDeleteMessage": {
+        "description": "Confirm delete loan message",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            }
+        }
+    },
+    "amounts": "Montants",
+    "@amounts": {
+        "description": "Amounts label"
+    },
+    "dates": "Dates",
+    "@dates": {
+        "description": "Dates label"
+    },
+    "company": "Compagnie",
+    "@company": {
+        "description": "Company label"
+    },
+    "categoryAndCount": "Catégorie × Nombre",
+    "@categoryAndCount": {
+        "description": "Category and count label"
+    },
+    "endsSoon": "Bientôt fini",
+    "@endsSoon": {
+        "description": "Ends soon badge label"
+    },
+    "paidAt": "Payé le",
+    "@paidAt": {
+        "description": "Paid date label"
+    },
+    "markAsPaid": "Marquer comme payé",
+    "@markAsPaid": {
+        "description": "Mark as paid button"
+    },
+    "overview": "Aperçu",
+    "@overview": {
+        "description": "Overview summary title"
+    },
+    "totalLoansCount": "Total des prêts",
+    "@totalLoansCount": {
+        "description": "Total loans count label"
+    },
+    "totalLent": "Total prêté",
+    "@totalLent": {
+        "description": "Total lent amount label"
+    },
+    "earnedProfit": "Bénéfices réalisés",
+    "@earnedProfit": {
+        "description": "Earned profit amount label"
+    },
+    "monthProfitLabel": "Bénéfices du mois",
+    "@monthProfitLabel": {
+        "description": "Monthly profit label"
+    },
+    "loanDistribution": "Répartition des prêts",
+    "@loanDistribution": {
+        "description": "Loan distribution title"
+    },
+    "recentCompletedLoansTitle": "Derniers prêts remboursés",
+    "@recentCompletedLoansTitle": {
+        "description": "Recently completed loans title"
+    },
+    "noCompletedLoans": "Aucun prêt remboursé pour le moment",
+    "@noCompletedLoans": {
+        "description": "Message when no completed loans exist"
+    },
+    "noData": "Aucune donnée",
+    "@noData": {
+        "description": "Message when no data is available"
+    },
+    "profitSuffix": "bénéfice",
+    "@profitSuffix": {
+        "description": "Profit suffix for charts"
+    },
+    "searchHint": "Rechercher par nom ou téléphone...",
+    "@searchHint": {
+        "description": "Search field hint"
+    },
+    "activeTab": "Actifs ({count})",
+    "@activeTab": {
+        "description": "Active loans tab label",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "5"
+            }
+        }
+    },
+    "overdueTab": "En retard ({count})",
+    "@overdueTab": {
+        "description": "Overdue loans tab label",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "2"
+            }
+        }
+    },
+    "completedTab": "Remboursés ({count})",
+    "@completedTab": {
+        "description": "Completed loans tab label",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "10"
+            }
+        }
+    },
+    "noLoansList": "Aucun prêt dans cette liste",
+    "@noLoansList": {
+        "description": "Empty list message"
+    },
+    "deleteSuccess": "Prêt supprimé avec succès",
+    "@deleteSuccess": {
+        "description": "Loan deleted success message"
+    },
+    "loanWarningTitle": "⚠️ Avertissement échéance",
+    "@loanWarningTitle": {
+        "description": "Loan warning notification title"
+    },
+    "loanWarningBody": "Il reste 24h pour le remboursement de {name} - Montant: {amount} MRU",
+    "@loanWarningBody": {
+        "description": "Loan warning notification body",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            },
+            "amount": {
+                "type": "String",
+                "example": "1000"
+            }
+        }
+    },
+    "loanDueTitle": "🔴 Échéance aujourd'hui",
+    "@loanDueTitle": {
+        "description": "Loan due today notification title"
+    },
+    "loanDueBody": "C'est le moment du remboursement de {name} - Montant: {amount} MRU",
+    "@loanDueBody": {
+        "description": "Loan due today notification body",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            },
+            "amount": {
+                "type": "String",
+                "example": "1000"
+            }
+        }
+    },
+    "loading": "Chargement...",
+    "@loading": {
+        "description": "Loading indicator text"
+    },
+    "slogan": "Gerez vos prêts et dettes en toute simplicité",
+    "@slogan": {
+        "description": "App slogan"
+    },
+    "mauritel": "Mauritel",
+    "@mauritel": {
+        "description": "Mauritel operator name"
+    },
+    "chinguitel": "Chinguitel",
+    "@chinguitel": {
+        "description": "Chinguitel operator name"
+    },
+    "mattel": "Mattel",
+    "@mattel": {
+        "description": "Mattel operator name"
+    },
+    "other": "Autre",
+    "@other": {
+        "description": "Other operator name"
+    },
+    "threeDays": "3 jours",
+    "@threeDays": {
+        "description": "3 days duration option"
+    },
+    "sevenDays": "Une semaine",
+    "@sevenDays": {
+        "description": "One week duration option"
+    },
+    "twoWeeks": "Deux semaines",
+    "@twoWeeks": {
+        "description": "Two weeks duration option"
+    },
+    "month": "Mois",
+    "@month": {
+        "description": "One month duration option"
+    },
+    "twoMonths": "Deux mois",
+    "@twoMonths": {
+        "description": "Two months duration option"
+    },
+    "threeMonths": "3 mois",
+    "@threeMonths": {
+        "description": "Three months duration option"
+    },
+    "sixMonths": "Six mois",
+    "@sixMonths": {
+        "description": "Six months duration option"
+    },
+    "system": "Système",
+    "@system": {
+        "description": "System theme option"
+    },
+    "dark": "Sombre",
+    "@dark": {
+        "description": "Dark theme option"
+    },
+    "light": "Clair",
+    "@light": {
+        "description": "Light theme option"
+    },
+    "adminUser": "Administrateur",
+    "@adminUser": {
+        "description": "Admin user role label"
+    },
+    "betaVersion": "Version Bêta",
+    "@betaVersion": {
+        "description": "Beta version badge"
+    },
+    "security": "Sécurité",
+    "@security": {
+        "description": "Security settings section title"
+    },
+    "pinLock": "Verrouillage PIN",
+    "@pinLock": {
+        "description": "PIN lock settings label"
+    },
+    "enabled": "Activé",
+    "@enabled": {
+        "description": "Feature enabled status"
+    },
+    "disabled": "Désactivé",
+    "@disabled": {
+        "description": "Feature disabled status"
+    },
+    "setupPin": "Configurer le code PIN",
+    "@setupPin": {
+        "description": "Setup PIN button label"
+    },
+    "enterPin": "Entrez le code PIN",
+    "@enterPin": {
+        "description": "Enter PIN screen title"
+    },
+    "pinLengthHint": "(4-6 chiffres)",
+    "@pinLengthHint": {
+        "description": "PIN length requirements hint"
+    },
+    "chooseLanguage": "Choisir la langue",
+    "@chooseLanguage": {
+        "description": "Language selection dialog title"
+    },
+    "arabic": "Arabe (العربية)",
+    "@arabic": {
+        "description": "Arabic language option"
+    },
+    "french": "Français",
+    "@french": {
+        "description": "French language option"
+    },
+    "settingsSaved": "Paramètres enregistrés avec succès",
+    "@settingsSaved": {
+        "description": "Settings saved success message"
+    },
+    "percentage": "Pourcentage",
+    "@percentage": {
+        "description": "Percentage profit type option"
+    },
+    "fixed": "Fixe",
+    "@fixed": {
+        "description": "Fixed profit type option"
+    },
+    "defaultProfitPercentage": "Pourcentage par défaut (%)",
+    "@defaultProfitPercentage": {
+        "description": "Default profit percentage settings label"
+    },
+    "defaultProfitAmount": "Montant par défaut (MRU)",
+    "@defaultProfitAmount": {
+        "description": "Default profit amount settings label"
+    },
+    "accountCreated": "Votre compte a été créé",
+    "@accountCreated": {
+        "description": "Message shown when a new account is successfully created"
+    }
+}

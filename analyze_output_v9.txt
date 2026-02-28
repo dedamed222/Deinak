@@ -1,0 +1,9 @@
+Analyzing deinak...                                             
+
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\home_screen.dart:392:19 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:89:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:417:57 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:126:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\settings\settings_screen.dart:127:23 - prefer_const_literals_to_create_immutables
+
+5 issues found. (ran in 2.7s)

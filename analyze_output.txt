@@ -1,0 +1,98 @@
+Analyzing deinak...                                             
+
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\constants\app_theme.dart:32:18 - argument_type_not_assignable
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\constants\app_theme.dart:106:18 - argument_type_not_assignable
+warning - The value of the local variable 'now' isn't used - lib\core\database\loan_repository.dart:59:11 - unused_local_variable
+warning - The value of the local variable 'db' isn't used - lib\core\database\loan_repository.dart:152:11 - unused_local_variable
+  error - The returned type 'double' isn't returnable from a 'int' function, as required by the closure's context - lib\core\database\loan_repository.dart:163:49 - return_of_invalid_type_from_closure
+  error - The returned type 'double' isn't returnable from a 'int' function, as required by the closure's context - lib\core\database\loan_repository.dart:165:59 - return_of_invalid_type_from_closure
+  error - Target of URI doesn't exist: '../core/constants/app_constants.dart' - lib\core\database\user_repository.dart:1:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../core/database/database_helper.dart' - lib\core\database\user_repository.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../models/user_model.dart' - lib\core\database\user_repository.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'DatabaseHelper' - lib\core\database\user_repository.dart:6:9 - undefined_class
+  error - The method 'DatabaseHelper' isn't defined for the type 'UserRepository' - lib\core\database\user_repository.dart:6:30 - undefined_method
+  error - The name 'UserModel' isn't a type, so it can't be used as a type argument - lib\core\database\user_repository.dart:8:10 - non_type_as_type_argument
+  error - Undefined name 'AppConstants' - lib\core\database\user_repository.dart:11:7 - undefined_identifier
+  error - Undefined name 'UserModel' - lib\core\database\user_repository.dart:16:12 - undefined_identifier
+  error - The name 'UserModel' isn't a type, so it can't be used as a type argument - lib\core\database\user_repository.dart:19:10 - non_type_as_type_argument
+  error - Undefined name 'AppConstants' - lib\core\database\user_repository.dart:22:7 - undefined_identifier
+  error - Undefined name 'UserModel' - lib\core\database\user_repository.dart:27:12 - undefined_identifier
+  error - The name 'UserModel' isn't a type, so it can't be used as a type argument - lib\core\database\user_repository.dart:30:10 - non_type_as_type_argument
+  error - Undefined name 'DatabaseHelper' - lib\core\database\user_repository.dart:31:26 - undefined_identifier
+  error - Undefined name 'AppConstants' - lib\core\database\user_repository.dart:34:7 - undefined_identifier
+  error - Undefined name 'UserModel' - lib\core\database\user_repository.dart:39:12 - undefined_identifier
+  error - Undefined name 'AppConstants' - lib\core\database\user_repository.dart:45:28 - undefined_identifier
+  error - Undefined name 'DatabaseHelper' - lib\core\database\user_repository.dart:47:24 - undefined_identifier
+  error - Undefined name 'AppConstants' - lib\core\database\user_repository.dart:56:7 - undefined_identifier
+  error - Undefined name 'DatabaseHelper' - lib\core\database\user_repository.dart:58:26 - undefined_identifier
+   info - Don't use 'BuildContext's across async gaps - lib\main.dart:61:13 - use_build_context_synchronously
+warning - Unused import: 'package:shared_preferences/shared_preferences.dart' - lib\providers\loans_provider.dart:2:8 - unused_import
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\screens\auth\login_screen.dart:2:8 - unnecessary_import
+  error - Target of URI doesn't exist: '../../widgets/custom_text_field.dart' - lib\screens\auth\login_screen.dart:6:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../widgets/loading_button.dart' - lib\screens\auth\login_screen.dart:7:8 - uri_does_not_exist
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\auth\login_screen.dart:122:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\auth\login_screen.dart:124:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\auth\login_screen.dart:146:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\auth\login_screen.dart:161:51 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\login_screen.dart:186:45 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:60:45 - deprecated_member_use
+warning - The value of the local variable 'isDark' isn't used - lib\screens\home\home_screen.dart:267:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:273:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:280:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:333:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:336:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:379:30 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\home_screen.dart:393:19 - prefer_const_constructors
+   info - Unnecessary braces in a string interpolation - lib\screens\home\home_screen.dart:427:23 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\screens\home\home_screen.dart:430:23 - unnecessary_brace_in_string_interps
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:438:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home\home_screen.dart:460:36 - deprecated_member_use
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\screens\loans\add_loan_screen.dart:2:8 - unnecessary_import
+warning - The value of the local variable 'isDark' isn't used - lib\screens\loans\add_loan_screen.dart:179:11 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\add_loan_screen.dart:191:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\add_loan_screen.dart:211:13 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\add_loan_screen.dart:253:46 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\add_loan_screen.dart:274:13 - prefer_const_constructors
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\loans\add_loan_screen.dart:278:17 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\loans\add_loan_screen.dart:291:17 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\add_loan_screen.dart:336:13 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\add_loan_screen.dart:349:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\add_loan_screen.dart:357:54 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\add_loan_screen.dart:417:13 - prefer_const_constructors
+  error - The getter 'rtl' isn't defined for the type 'TextDirection' - lib\screens\loans\add_loan_screen.dart:421:46 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\add_loan_screen.dart:471:33 - deprecated_member_use
+  error - The getter 'rtl' isn't defined for the type 'TextDirection' - lib\screens\loans\add_loan_screen.dart:495:36 - undefined_getter
+warning - The value of the local variable 'isDark' isn't used - lib\screens\loans\loan_detail_screen.dart:20:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:90:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:100:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:141:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:369:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:417:57 - deprecated_member_use
+warning - Unused import: '../../providers/auth_provider.dart' - lib\screens\loans\loans_list_screen.dart:5:8 - unused_import
+warning - The value of the local variable 'isDark' isn't used - lib\screens\loans\loans_list_screen.dart:40:11 - unused_local_variable
+  error - The getter 'rtl' isn't defined for the type 'TextDirection' - lib\screens\loans\loans_list_screen.dart:100:44 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loans_list_screen.dart:279:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loans_list_screen.dart:317:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loans_list_screen.dart:319:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loans_list_screen.dart:337:38 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\screens\reports\reports_screen.dart:35:7 - curly_braces_in_flow_control_structures
+warning - The value of the local variable 'isDark' isn't used - lib\screens\reports\reports_screen.dart:45:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\reports\reports_screen.dart:250:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\reports\reports_screen.dart:369:38 - deprecated_member_use
+warning - The value of the local variable 'isDark' isn't used - lib\screens\settings\settings_screen.dart:21:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\settings\settings_screen.dart:34:54 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:61:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:92:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:103:11 - prefer_const_constructors
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\settings\settings_screen.dart:112:19 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:126:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:127:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\settings\settings_screen.dart:128:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:129:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\settings\settings_screen.dart:135:15 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\settings\settings_screen.dart:188:20 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\settings\settings_screen.dart:422:33 - deprecated_member_use
+warning - A value for optional parameter 'onTap' isn't ever given - lib\screens\settings\settings_screen.dart:444:10 - unused_element_parameter
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
+94 issues found. (ran in 2.7s)

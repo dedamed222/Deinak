@@ -1,0 +1,26 @@
+Analyzing deinak...                                             
+
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:51:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:52:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:56:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:57:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:61:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:62:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:66:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\home\main_screen.dart:67:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loan_detail_screen.dart:61:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loan_detail_screen.dart:62:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loan_detail_screen.dart:71:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loan_detail_screen.dart:72:23 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\loans\loan_detail_screen.dart:143:43 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loans_list_screen.dart:284:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loans_list_screen.dart:285:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loans_list_screen.dart:296:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\loans\loans_list_screen.dart:297:19 - prefer_const_constructors
+   info - Use interpolation to compose strings and values - lib\screens\settings\settings_screen.dart:175:27 - prefer_interpolation_to_compose_strings
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\settings\settings_screen.dart:369:17 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\settings\settings_screen.dart:370:17 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\settings\settings_screen.dart:384:17 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\settings\settings_screen.dart:385:17 - deprecated_member_use
+
+22 issues found. (ran in 18.7s)

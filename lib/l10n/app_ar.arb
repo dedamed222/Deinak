@@ -1,0 +1,713 @@
+{
+    "@@locale": "ar",
+    "appName": "دينك",
+    "@appName": {
+        "description": "Application name"
+    },
+    "appTitle": "دينك",
+    "@appTitle": {
+        "description": "Application title"
+    },
+    "appDescription": "إدارة ديون بالسلف",
+    "@appDescription": {
+        "description": "Application description"
+    },
+    "login": "تسجيل الدخول",
+    "@login": {
+        "description": "Login button text"
+    },
+    "register": "إنشاء حساب",
+    "@register": {
+        "description": "Register button text"
+    },
+    "settings": "الإعدادات",
+    "@settings": {
+        "description": "Settings menu item"
+    },
+    "loans": "السلف",
+    "@loans": {
+        "description": "Loans menu item"
+    },
+    "reports": "التقارير",
+    "@reports": {
+        "description": "Reports menu item"
+    },
+    "home": "الرئيسية",
+    "@home": {
+        "description": "Home menu item"
+    },
+    "addLoan": "إضافة سلف",
+    "@addLoan": {
+        "description": "Add loan button"
+    },
+    "editLoan": "تعديل السلف",
+    "@editLoan": {
+        "description": "Edit loan button"
+    },
+    "delete": "حذف",
+    "@delete": {
+        "description": "Delete button label"
+    },
+    "cancel": "إلغاء",
+    "@cancel": {
+        "description": "Cancel button label"
+    },
+    "save": "حفظ",
+    "@save": {
+        "description": "Save button label"
+    },
+    "borrowerName": "اسم المستلف",
+    "@borrowerName": {
+        "description": "Borrower name label"
+    },
+    "fullNameLabel": "الاسم الكامل",
+    "@fullNameLabel": {
+        "description": "Full name label for user profile"
+    },
+    "fullNameRequired": "يرجى إدخال الاسم الكامل",
+    "@fullNameRequired": {
+        "description": "Error message when full name is empty"
+    },
+    "countryLabel": "الدولة",
+    "@countryLabel": {
+        "description": "Country label for registration"
+    },
+    "selectCountry": "اختر الدولة",
+    "@selectCountry": {
+        "description": "Select country hint"
+    },
+    "phoneNumber": "رقم الهاتف",
+    "@phoneNumber": {
+        "description": "Phone number label"
+    },
+    "loanDate": "تاريخ السلف",
+    "@loanDate": {
+        "description": "Loan date label"
+    },
+    "dueDate": "تاريخ السداد",
+    "@dueDate": {
+        "description": "Due date label"
+    },
+    "amount": "المبلغ",
+    "@amount": {
+        "description": "Amount label"
+    },
+    "profit": "الربح",
+    "@profit": {
+        "description": "Profit label"
+    },
+    "total": "الإجمالي",
+    "@total": {
+        "description": "Total label"
+    },
+    "notes": "ملاحظات",
+    "@notes": {
+        "description": "Notes label"
+    },
+    "status": "الحالة",
+    "@status": {
+        "description": "Status label"
+    },
+    "active": "نشط",
+    "@active": {
+        "description": "Active status label"
+    },
+    "overdue": "متأخر",
+    "@overdue": {
+        "description": "Overdue status label"
+    },
+    "completed": "مكتمل",
+    "@completed": {
+        "description": "Completed status label"
+    },
+    "theme": "المظهر",
+    "@theme": {
+        "description": "Theme settings label"
+    },
+    "language": "اللغة",
+    "@language": {
+        "description": "Language settings label"
+    },
+    "logout": "تسجيل الخروج",
+    "@logout": {
+        "description": "Logout button"
+    },
+    "guestUser": "مستخدم ضيف",
+    "@guestUser": {
+        "description": "Guest user label"
+    },
+    "aboutApp": "عن التطبيق",
+    "@aboutApp": {
+        "description": "About app menu"
+    },
+    "version": "الإصدار",
+    "@version": {
+        "description": "Version label"
+    },
+    "developedBy": "تم التطوير بواسطة",
+    "@developedBy": {
+        "description": "Developed by label"
+    },
+    "username": "اسم المستخدم",
+    "@username": {
+        "description": "Username label"
+    },
+    "password": "كلمة المرور",
+    "@password": {
+        "description": "Password label"
+    },
+    "enterUsername": "أدخل اسم المستخدم",
+    "@enterUsername": {
+        "description": "Enter username hint"
+    },
+    "enterPhoneNumber": "أدخل رقم الهاتف",
+    "@enterPhoneNumber": {
+        "description": "Enter phone number hint"
+    },
+    "enterPassword": "أدخل كلمة المرور",
+    "@enterPassword": {
+        "description": "Enter password hint"
+    },
+    "usernameRequired": "يرجى إدخال اسم المستخدم",
+    "@usernameRequired": {
+        "description": "Username required error"
+    },
+    "passwordRequired": "يرجى إدخال كلمة المرور",
+    "@passwordRequired": {
+        "description": "Password required error"
+    },
+    "noAccount": "ليس لديك حساب؟ إنشاء حساب جديد",
+    "@noAccount": {
+        "description": "Link to registration"
+    },
+    "continueAsGuest": "متابعة بدون حساب (ضيف)",
+    "@continueAsGuest": {
+        "description": "Continue as guest button"
+    },
+    "invalidPhoneNumber": "رقم الهاتف غير صحيح. يجب أن يتكون من 8 أرقام ويبدأ بـ 2 أو 3 أو 4",
+    "@invalidPhoneNumber": {
+        "description": "Phone number validation error message"
+    },
+    "loginError": "خطأ في تسجيل الدخول",
+    "@loginError": {
+        "description": "Login error message"
+    },
+    "totalLentAmount": "إجمالي الـمبالغ الـمستلفة",
+    "@totalLentAmount": {
+        "description": "Total lent amount label"
+    },
+    "activeLoansCount": "{count} سلف نشط",
+    "@activeLoansCount": {
+        "description": "Count of active loans",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "5"
+            }
+        }
+    },
+    "todayProfitLabel": "أرباح اليوم",
+    "@todayProfitLabel": {
+        "description": "Today's profit label"
+    },
+    "expectedProfitLabel": "أرباح متوقعة",
+    "@expectedProfitLabel": {
+        "description": "Expected profit label"
+    },
+    "overdueLoansTitle": "سلف متأخرة ({count})",
+    "@overdueLoansTitle": {
+        "description": "Title for overdue loans list",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "recentLoans": "السلف الأخيرة",
+    "@recentLoans": {
+        "description": "Recent loans header"
+    },
+    "noActiveLoans": "لا توجد سلف نشطة",
+    "@noActiveLoans": {
+        "description": "Message when no active loans exist"
+    },
+    "newLoan": "سلف جديد",
+    "@newLoan": {
+        "description": "New loan button"
+    },
+    "guestBannerText": "أنت تستخدم التطبيق كضيف. بياناتك محلية فقط.",
+    "@guestBannerText": {
+        "description": "Warning message for guest users"
+    },
+    "changePassword": "تغيير كلمة المرور",
+    "@changePassword": {
+        "description": "Change password title"
+    },
+    "currentPassword": "كلمة المرور الحالية",
+    "@currentPassword": {
+        "description": "Current password label"
+    },
+    "newPassword": "كلمة المرور الجديدة",
+    "@newPassword": {
+        "description": "New password label"
+    },
+    "confirmPassword": "تأكيد كلمة المرور",
+    "@confirmPassword": {
+        "description": "Confirm password label"
+    },
+    "confirmLogout": "هل تريد تسجيل الخروج؟",
+    "@confirmLogout": {
+        "description": "Confirmation message for logout"
+    },
+    "logoutButton": "خروج",
+    "@logoutButton": {
+        "description": "Logout confirmation button"
+    },
+    "passwordsNotMatch": "كلمات المرور غير متطابقة",
+    "@passwordsNotMatch": {
+        "description": "Password mismatch error"
+    },
+    "registerError": "خطأ في إنشاء الحساب",
+    "@registerError": {
+        "description": "Registration error message"
+    },
+    "registerTitle": "إنشاء حساب جديد",
+    "@registerTitle": {
+        "description": "Registration title"
+    },
+    "createAccount": "إنشاء الحساب",
+    "@createAccount": {
+        "description": "Create account button label"
+    },
+    "passwordTooShort": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+    "@passwordTooShort": {
+        "description": "Password too short error"
+    },
+    "confirmPasswordRequired": "يرجى تأكيد كلمة المرور",
+    "@confirmPasswordRequired": {
+        "description": "Confirmation password required error"
+    },
+    "borrowerInfo": "معلومات المستلف",
+    "@borrowerInfo": {
+        "description": "Borrower info section header"
+    },
+    "loanDetails": "تفاصيل السلف",
+    "@loanDetails": {
+        "description": "Loan details section header"
+    },
+    "loanDuration": "الأجل",
+    "@loanDuration": {
+        "description": "Loan duration label"
+    },
+    "repaymentDate": "موعد السداد",
+    "@repaymentDate": {
+        "description": "Repayment date label"
+    },
+    "cardCompany": "شركة البطاقة",
+    "@cardCompany": {
+        "description": "Card company label"
+    },
+    "cardCategory": "فئة البطاقة (القيمة)",
+    "@cardCategory": {
+        "description": "Card category label"
+    },
+    "cardCount": "عدد البطاقات",
+    "@cardCount": {
+        "description": "Card count label"
+    },
+    "customValue": "أخرى",
+    "@customValue": {
+        "description": "Other/custom value option"
+    },
+    "cardValueLabel": "قيمة البطاقة (MRU)",
+    "@cardValueLabel": {
+        "description": "Card value input label"
+    },
+    "profitType": "نوع الربح",
+    "@profitType": {
+        "description": "Profit type label"
+    },
+    "profitPercentage": "نسبة %",
+    "@profitPercentage": {
+        "description": "Profit percentage label"
+    },
+    "fixedAmount": "مبلغ ثابت",
+    "@fixedAmount": {
+        "description": "Fixed profit amount label"
+    },
+    "profitRate": "نسبة الربح (%)",
+    "@profitRate": {
+        "description": "Profit rate label"
+    },
+    "profitAmount": "مبلغ الربح (MRU)",
+    "@profitAmount": {
+        "description": "Profit amount label"
+    },
+    "loanSummary": "ملخص السلف",
+    "@loanSummary": {
+        "description": "Loan summary header"
+    },
+    "totalCardsAmount": "إجمالي البطاقات",
+    "@totalCardsAmount": {
+        "description": "Total cards amount label"
+    },
+    "finalAmount": "المبلغ النهائي",
+    "@finalAmount": {
+        "description": "Final loan amount label"
+    },
+    "addNoteHint": "أضف ملاحظة (اختياري)...",
+    "@addNoteHint": {
+        "description": "Add note hint text"
+    },
+    "invalidCardValue": "يرجى إدخال قيمة صحيحة للبطاقة",
+    "@invalidCardValue": {
+        "description": "Invalid card value error"
+    },
+    "loanUpdated": "تم تحديث السلف بنجاح",
+    "@loanUpdated": {
+        "description": "Loan updated success message"
+    },
+    "loanAdded": "تم إضافة السلف بنجاح",
+    "@loanAdded": {
+        "description": "Loan added success message"
+    },
+    "nameRequired": "يرجى إدخال الاسم",
+    "@nameRequired": {
+        "description": "Name required error"
+    },
+    "phoneRequired": "يرجى إدخال رقم الهاتف",
+    "@phoneRequired": {
+        "description": "Phone required error"
+    },
+    "cardCountRequired": "يرجى إدخال عدد البطاقات",
+    "@cardCountRequired": {
+        "description": "Card count required error"
+    },
+    "profitValueRequired": "يرجى إدخال قيمة الربح",
+    "@profitValueRequired": {
+        "description": "Profit value required error"
+    },
+    "confirmPaidTitle": "تأكيد السداد",
+    "@confirmPaidTitle": {
+        "description": "Confirm paid dialog title"
+    },
+    "confirmPaidMessage": "هل تم سداد {name}؟",
+    "@confirmPaidMessage": {
+        "description": "Confirm paid dialog message",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            }
+        }
+    },
+    "yesPaid": "نعم، تم السداد",
+    "@yesPaid": {
+        "description": "Confirm paid button"
+    },
+    "no": "لا",
+    "@no": {
+        "description": "No button"
+    },
+    "paidSuccess": "تم تسجيل السداد بنجاح",
+    "@paidSuccess": {
+        "description": "Payment marked as success message"
+    },
+    "confirmDeleteTitle": "حذف السلف",
+    "@confirmDeleteTitle": {
+        "description": "Confirm delete loan title"
+    },
+    "confirmDeleteMessage": "هل أنت متأكد من حذف سلف {name}؟",
+    "@confirmDeleteMessage": {
+        "description": "Confirm delete loan message",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            }
+        }
+    },
+    "amounts": "المبالغ",
+    "@amounts": {
+        "description": "Amounts label"
+    },
+    "dates": "التواريخ",
+    "@dates": {
+        "description": "Dates label"
+    },
+    "company": "الشركة",
+    "@company": {
+        "description": "Company label"
+    },
+    "categoryAndCount": "الفئة × العدد",
+    "@categoryAndCount": {
+        "description": "Category and count label"
+    },
+    "endsSoon": "ينتهي قريبًا",
+    "@endsSoon": {
+        "description": "Ends soon badge label"
+    },
+    "paidAt": "تاريخ السداد",
+    "@paidAt": {
+        "description": "Paid date label"
+    },
+    "markAsPaid": "تم السداد",
+    "@markAsPaid": {
+        "description": "Mark as paid button"
+    },
+    "overview": "نظرة عامة",
+    "@overview": {
+        "description": "Overview summary title"
+    },
+    "totalLoansCount": "إجمالي السلف",
+    "@totalLoansCount": {
+        "description": "Total loans count label"
+    },
+    "totalLent": "إجمالي مُقرض",
+    "@totalLent": {
+        "description": "Total lent amount label"
+    },
+    "earnedProfit": "أرباح محققة",
+    "@earnedProfit": {
+        "description": "Earned profit amount label"
+    },
+    "monthProfitLabel": "أرباح الشهر",
+    "@monthProfitLabel": {
+        "description": "Monthly profit label"
+    },
+    "loanDistribution": "توزيع السلف",
+    "@loanDistribution": {
+        "description": "Loan distribution title"
+    },
+    "recentCompletedLoansTitle": "أحدث السلف المسددة",
+    "@recentCompletedLoansTitle": {
+        "description": "Recently completed loans title"
+    },
+    "noCompletedLoans": "لا توجد سلف مسددة بعد",
+    "@noCompletedLoans": {
+        "description": "Message when no completed loans exist"
+    },
+    "noData": "لا توجد بيانات",
+    "@noData": {
+        "description": "Message when no data is available"
+    },
+    "profitSuffix": "ربح",
+    "@profitSuffix": {
+        "description": "Profit suffix for charts"
+    },
+    "searchHint": "بحث باسم المستلف أو رقم الهاتف...",
+    "@searchHint": {
+        "description": "Search field hint"
+    },
+    "activeTab": "نشطة ({count})",
+    "@activeTab": {
+        "description": "Active loans tab label",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "5"
+            }
+        }
+    },
+    "overdueTab": "متأخرة ({count})",
+    "@overdueTab": {
+        "description": "Overdue loans tab label",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "2"
+            }
+        }
+    },
+    "completedTab": "مسددة ({count})",
+    "@completedTab": {
+        "description": "Completed loans tab label",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "10"
+            }
+        }
+    },
+    "noLoansList": "لا توجد سلف في هذه القائمة",
+    "@noLoansList": {
+        "description": "Empty list message"
+    },
+    "deleteSuccess": "تم حذف السلف بنجاح",
+    "@deleteSuccess": {
+        "description": "Loan deleted success message"
+    },
+    "loanWarningTitle": "⚠️ تحذير موعد السداد",
+    "@loanWarningTitle": {
+        "description": "Loan warning notification title"
+    },
+    "loanWarningBody": "تبقى 24 ساعة على موعد سداد {name} - المبلغ: {amount} MRU",
+    "@loanWarningBody": {
+        "description": "Loan warning notification body",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            },
+            "amount": {
+                "type": "String",
+                "example": "1000"
+            }
+        }
+    },
+    "loanDueTitle": "🔴 موعد السداد اليوم",
+    "@loanDueTitle": {
+        "description": "Loan due today notification title"
+    },
+    "loanDueBody": "حان موعد سداد {name} - المبلغ: {amount} MRU",
+    "@loanDueBody": {
+        "description": "Loan due today notification body",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Ahmed"
+            },
+            "amount": {
+                "type": "String",
+                "example": "1000"
+            }
+        }
+    },
+    "loading": "جاري التحميل...",
+    "@loading": {
+        "description": "Loading indicator text"
+    },
+    "slogan": "إدارة السلف والديون بكل سهولة",
+    "@slogan": {
+        "description": "App slogan"
+    },
+    "mauritel": "موريتل",
+    "@mauritel": {
+        "description": "Mauritel operator name"
+    },
+    "chinguitel": "شنقيتل",
+    "@chinguitel": {
+        "description": "Chinguitel operator name"
+    },
+    "mattel": "ماتل",
+    "@mattel": {
+        "description": "Mattel operator name"
+    },
+    "other": "أخرى",
+    "@other": {
+        "description": "Other operator name"
+    },
+    "threeDays": "3 أيام",
+    "@threeDays": {
+        "description": "3 days duration option"
+    },
+    "sevenDays": "أسبوع",
+    "@sevenDays": {
+        "description": "One week duration option"
+    },
+    "twoWeeks": "أسبوعين",
+    "@twoWeeks": {
+        "description": "Two weeks duration option"
+    },
+    "month": "شهر",
+    "@month": {
+        "description": "One month duration option"
+    },
+    "twoMonths": "شهرين",
+    "@twoMonths": {
+        "description": "Two months duration option"
+    },
+    "threeMonths": "3 أشهر",
+    "@threeMonths": {
+        "description": "Three months duration option"
+    },
+    "sixMonths": "6 أشهر",
+    "@sixMonths": {
+        "description": "Six months duration option"
+    },
+    "system": "تلقائي",
+    "@system": {
+        "description": "System theme option"
+    },
+    "dark": "داكن",
+    "@dark": {
+        "description": "Dark theme option"
+    },
+    "light": "فاتح",
+    "@light": {
+        "description": "Light theme option"
+    },
+    "adminUser": "مسؤول النظام",
+    "@adminUser": {
+        "description": "Admin user role label"
+    },
+    "betaVersion": "نسخة تجريبية",
+    "@betaVersion": {
+        "description": "Beta version badge"
+    },
+    "security": "الأمان",
+    "@security": {
+        "description": "Security settings section title"
+    },
+    "pinLock": "قفل بالـ PIN",
+    "@pinLock": {
+        "description": "PIN lock settings label"
+    },
+    "enabled": "مفعّل",
+    "@enabled": {
+        "description": "Feature enabled status"
+    },
+    "disabled": "غير مفعّل",
+    "@disabled": {
+        "description": "Feature disabled status"
+    },
+    "setupPin": "إعداد رمز PIN",
+    "@setupPin": {
+        "description": "Setup PIN button label"
+    },
+    "enterPin": "أدخل رمز PIN",
+    "@enterPin": {
+        "description": "Enter PIN screen title"
+    },
+    "pinLengthHint": "(4-6 أرقام)",
+    "@pinLengthHint": {
+        "description": "PIN length requirements hint"
+    },
+    "chooseLanguage": "اختر اللغة",
+    "@chooseLanguage": {
+        "description": "Language selection dialog title"
+    },
+    "arabic": "العربية",
+    "@arabic": {
+        "description": "Arabic language option"
+    },
+    "french": "الفرنسية (Français)",
+    "@french": {
+        "description": "French language option"
+    },
+    "settingsSaved": "تم حفظ الإعدادات بنجاح",
+    "@settingsSaved": {
+        "description": "Settings saved success message"
+    },
+    "percentage": "نسبة",
+    "@percentage": {
+        "description": "Percentage profit type option"
+    },
+    "fixed": "ثابت",
+    "@fixed": {
+        "description": "Fixed profit type option"
+    },
+    "defaultProfitPercentage": "النسبة الافتراضية (%)",
+    "@defaultProfitPercentage": {
+        "description": "Default profit percentage settings label"
+    },
+    "defaultProfitAmount": "المبلغ الافتراضي (MRU)",
+    "@defaultProfitAmount": {
+        "description": "Default profit amount settings label"
+    },
+    "accountCreated": "لقد تم انشاء حسابك",
+    "@accountCreated": {
+        "description": "Message shown when a new account is successfully created"
+    }
+}
